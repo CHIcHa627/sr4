@@ -3,6 +3,8 @@
 #include <vector>
 
 using namespace std;
+const int M = 5;
+const int N = 4;
 
 int main() {
     // Відкриваємо файл для зчитування
@@ -26,7 +28,7 @@ int main() {
             file.ignore();
         }
     }
-
+////
     // Обчислюємо суму елементів з четних рядків
     double sum = 0.0;
     for (int i = 0; i < matrix.size(); i += 2) {
