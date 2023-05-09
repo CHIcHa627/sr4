@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-const int M = 4;
+const int M = 5;
 const int N = 4;
 
 int main() {
